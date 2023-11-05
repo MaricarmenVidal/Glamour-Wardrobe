@@ -1,5 +1,5 @@
 .carrito{
-    min-height: calc(100vh);
+    min-height: 100vh;
     margin-top: 100px;
 }
 .final h3{

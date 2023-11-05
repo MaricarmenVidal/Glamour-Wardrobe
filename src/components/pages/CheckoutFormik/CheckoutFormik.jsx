@@ -8,7 +8,6 @@ import { db } from "../../../firebaseConfig"
 import { collection } from "firebase/firestore"
 
 
-
 const CheckoutFormik = () => {
 
     const [orderId, setOrderId]= useState(null)
@@ -59,9 +58,10 @@ const CheckoutFormik = () => {
   return (
     <>
       {orderId ? (
-        <h1>Gracias por su compra, su N° de comprobante es {orderId}</h1>
+        <h1 style={{padding:"20px", marginTop:"90px", textAlign:"center"}}>Gracias por su compra, su N° de comprobante es {orderId}</h1>
       ):(
-        <div style={{padding:"50px"}}>
+        <div style={{padding:"50px", marginTop:"90px"}}>
+          <h1 style={{padding:"10px", textAlign:"center"}}>Llene sus datos para completar su compra</h1>
         <form onSubmit={handleSubmit} >
             <div style={{display:"flex", justifyContent:"space-around"}}>
         <TextField

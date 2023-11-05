@@ -1,0 +1,13 @@
+.carrito{
+    min-height: calc(100vh);
+    margin-top: 100px;
+}
+.final h3{
+    text-align: center;
+    padding: 15px;
+}
+.buttons{
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
+}

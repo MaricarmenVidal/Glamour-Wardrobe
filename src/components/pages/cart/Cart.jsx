@@ -33,7 +33,7 @@ const Cart = () => {
   return (
     <div className="carrito">
       <h1>
-        Estoy en el carrito
+        Carrito de compras
       </h1>
       {
         cart.map((product)=>(

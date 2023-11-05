@@ -10,8 +10,6 @@ const ItemListContainer = () => {
 
   const {categoryId}=useParams()
 
-
-
   useEffect(() => {
     let productsCollection = collection(db, "products")
     let consulta = undefined

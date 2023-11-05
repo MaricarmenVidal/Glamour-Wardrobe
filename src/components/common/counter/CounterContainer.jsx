@@ -21,10 +21,6 @@ const CounterContainer = ({ stock, onAdd, initial=1}) => {
   };
 
 
-  useEffect(() => {
-    console.log("Se realizo una peticion");
-  }, [ contador ] );
-
   return (
     <CounterPresentacional
       sumar={sumar}
